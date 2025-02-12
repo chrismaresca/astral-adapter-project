@@ -1,0 +1,19 @@
+[project]
+name = "astral-v3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Chris Maresca", email = "chris@chrismaresca.dev" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.10.6",
+]
+
+[project.scripts]
+astral-v3 = "astral_v3:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
